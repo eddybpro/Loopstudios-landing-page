@@ -1,10 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&display=swap');
 
-/* font-family: 'Josefin Sans', sans-serif; */
-/* font-family: 'Alata', sans-serif; */
-
-
 :root{
     --White: hsl(0, 0%, 100%);
     --Black: hsl(0, 0%, 0%);
@@ -22,6 +18,7 @@ html{
     box-sizing: border-box;
 }
 
+/* --------------- HEADER ---------------- */
 
 header{
     height: 85vh;
@@ -84,6 +81,8 @@ nav{
     line-height: 4rem;
 
 }
+
+/* ------------- MAIN -------------- */
 
 .first-container{
     padding: 2rem 1.5rem;
@@ -310,7 +309,12 @@ footer{
     display: none;
 }
 
+/* --------------- MEDIA QUERY ----------- */
+
 @media screen and (min-width:768px) {
+
+    /* -------------HEADER --------------- */
+
     header{
         height: 95vh;
         background: url('./images/desktop/image-hero.jpg');
@@ -371,6 +375,8 @@ footer{
         transform: translateX(6rem);
         padding:2rem 4rem;
     }
+
+    /* ------------------- MAIN ---------------------- */
 
     .first-container{
         position: relative;
@@ -502,6 +508,8 @@ footer{
         left: 2rem;
     }
 
+    /*  ----------------- FOOTER --------------------- */
+
     footer{
         display: grid;
         grid-template-areas:
@@ -543,20 +551,3 @@ footer{
         display: none;
     }
 }
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
